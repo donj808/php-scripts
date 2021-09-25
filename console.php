@@ -39,7 +39,7 @@
 			            eval( $_POST['code']?:"" ); 
 			          	$debug_output = ob_get_clean();	
 			          	if ( isset( $debug_output ) ) {
-							echo "<pre class='mwp-bootstrap-form'>" . $debug_output . "</pre>" ?:"";
+							echo "<pre>" . $debug_output . "</pre>" ?:"";
 						}
 			        } 
 				?>
